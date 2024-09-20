@@ -1,0 +1,22 @@
+.nearby-donors {
+    background-color: white;
+    position: sticky;
+    margin-bottom: 40px;
+}
+
+.nearby-donors h2 {
+    margin-top: 3px;
+}
+
+.nearby-donors select {
+    font-size: medium;
+    width: 16%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-weight: bold;
+}
+.nearby-donors p {
+    margin-bottom: 15px;
+    font-size: 18px;
+}

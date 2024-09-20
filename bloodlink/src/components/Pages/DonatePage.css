@@ -1,0 +1,116 @@
+.blood-donation {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blood-type-toggle {
+    display: inline;
+    margin-top: 20px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.blood-type-toggle button {
+    background-color: lightgray;
+    color: #660000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.blood-type-toggle button.active {
+    background-color: #660000;
+    color: white;
+}
+
+.blood-type-toggle button:not(.active) {
+    color: #660000;
+}
+
+.request-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.request-info {
+    margin: 15px;
+    /* margin-bottom: 20px; */
+}
+
+.request-info h2 {
+    margin-top: 0;
+}
+
+.request-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.share-btn {
+    background-color: #2da9da;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.share-btn:hover:hover {
+    background-color: #1f90bb;
+}
+
+.arrow-btn {
+    background-color: white;
+    color: #bbbbbb;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.arrow-btn:hover {
+    background-color: white;
+    color: #aaaaaa
+}
+
+.accept-btn {
+    font-size: 20px;
+    border-radius: 25px;
+    width: 100px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+.cancel-btn{
+    font-size: 20px;
+    border-radius: 25px;
+    width: 100px;
+    background-color: #c70000;
+    color: white;
+    font-weight: bold;
+}
+.donate-btn{
+    font-size: 20px;
+    border-radius: 25px;
+    width: 100px;
+    background-color: #830a0a;
+    color: white;
+    font-weight: bold;
+}
+
+.request-actions p{
+    font-size: 20px;
+    font-weight: bold;
+}

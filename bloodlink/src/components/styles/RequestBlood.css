@@ -1,0 +1,108 @@
+.request-blood-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.form-fieldsl {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  text-align: left;
+}
+.form-containerl {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.form-containerl form{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-groupl {
+  width: 47%;
+  margin: 10px;
+}
+
+.form-groupl.full-widthl {
+  width: 100%;
+}
+
+.label-namel {
+  margin-bottom: 5px;
+  display: block;
+  font-weight: bold;
+  text-align: left;
+}
+
+.form-containerl input[type="text"], 
+.form-containerl input[type="date"], 
+.form-containerl input[type="tel"], 
+.form-containerl input[type="number"], 
+.form-containerl select, 
+.form-containerl textarea,
+.form-containerl button {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.checkbox-container {
+  display: flex;
+  text-align: left;
+  margin-bottom: 10px;
+  width: 100%;
+  margin-left: 30px;
+}
+
+.checkbox-container input[type="checkbox"] {
+  text-align: left;
+  margin-right: 10px;
+}
+
+.checkbox-container span {
+  font-size: 14px;
+  color: #333;
+}
+
+.submit-btn{
+  align-items: center;
+  text-align: center;
+  margin-left: 36%;
+}
+.submit-btn button {
+  width:200px;
+  
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+}
+
+.submit-btn button:hover {
+  background-color: #45a049;
+}
+
+.required {
+  color: red;
+}
+
+.map-container {
+  height: 700px;
+  min-width: 300px;
+  position: sticky;
+  right: 20px;
+  margin-top: 65px;
+  width: 600px;
+}

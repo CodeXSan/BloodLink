@@ -1,0 +1,61 @@
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .homepage-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  .homepage-buttons p{
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .become-donor-button {
+    background-color: #28a745;
+  }
+  
+  .become-donor-button:hover {
+    background-color: #218838;
+  }
+  
+  .request-blood-button {
+    background-color: #9c1515;
+  }
+  
+  .request-blood-button:hover {
+    background-color: #9b0000;
+  }
+  
+  @media (max-width: 600px) {
+    .homepage-buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .button {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  

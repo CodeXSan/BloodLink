@@ -1,0 +1,75 @@
+.login-container {
+    max-width: 500px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    margin-top: 150px;
+  }
+  
+  @media (max-width: 768px) {
+    .login-container {
+      width: 90%;
+      margin: 20px auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .login-container {
+      width: 100%;
+      margin: 10px auto;
+    }
+  }
+  
+  input[type="text"], input[type="password"] {
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+    padding: 10px;
+    font-size: 16px;
+    width: 95%;
+    border-bottom: b;
+  }
+  
+  input[type="text"]:focus, input[type="password"]:focus {
+    border-bottom: 2px solid #660000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="text"]:blur, input[type="password"]:blur {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+    font-weight: bold;
+  }
+  .submit-container{
+    text-align: center;
+    margin-top: 10px;
+  }
+  input[type="submit"] {
+    text-align: center;
+    background-color: #660000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #550000;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }

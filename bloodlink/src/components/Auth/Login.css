@@ -1,0 +1,78 @@
+.auth-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.auth-container h2 {
+  margin-bottom: 20px;
+}
+
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auth-container .row {
+  width: 90%;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.auth-container .row label {
+  margin-bottom: 5px;
+  text-align: left;
+  width: 100%;
+}
+
+.auth-container input[type="text"],
+.auth-container input[type="email"],
+.auth-container input[type="password"],
+.auth-container input[type="tel"],
+.auth-container input[type="date"],
+.auth-container select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.auth-container .fetch-location-button,
+.auth-container .signup-button,
+.login-button{
+  padding: 10px 20px;
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.auth-container .fetch-location-button:hover,
+.auth-container .signup-button:hover,
+.login-button:hover {
+  background: #45a049;
+}
+
+.already-donor {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .auth-container {
+    padding: 10px;
+  }
+}
